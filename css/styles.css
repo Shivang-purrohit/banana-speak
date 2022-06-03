@@ -1,0 +1,117 @@
+* {
+    background-color: yellow;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,400;1,700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    margin: auto;
+    height: 15vh;
+    background-color: rgba(0, 0, 255, 0.801);
+    text-align: center;
+    padding-top: 3%;
+}
+
+#hero-heading{
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: 
+    font-size: 3rem;
+    display: inline-block;
+    
+}
+
+#minion-hero{
+    width: 4rem;
+    height: auto;
+}
+
+#txt-area{
+    width: 80%;
+    height: 10vh;
+    display: block;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+#btn-translate {
+    width: 7rem;
+    height: 3rem;
+    border-radius: 5%;
+    background-color : rgba(0, 0, 255, 0.801);
+    font-size: 1.1rem;
+    outline: none;
+}
+
+#output-heading{
+    margin-top: 2%;
+}
+
+
+
+#output{
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 3%;
+    padding: 1rem;
+}
+
+footer{
+    margin-top: 5%;
+    
+    background: linear-gradient(to right, rgb(255, 255, 0), rgb(208, 255, 0));
+    text-align: center;
+}
+
+#minion1{
+    height: 10rem;
+    width: auto;
+}
+
+footer p{
+    font-weight: 600;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+}
+
+.link-heading{
+    margin-top: 2%;
+}
+
+.link:hover{
+    border-bottom: 1px solid black;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+}
+
+.social-link-item{
+    margin: 1rem;
+}
